@@ -1,8 +1,8 @@
 // project settings, you can change only PROJECT_NAME, BASE_URL and WEBSITE_URL otherwise it can break the app
-export const PROJECT_NAME = 'Foodyman marketplace';
+export const PROJECT_NAME = 'Cargoland Foods';
 export const BASE_URL =
-  process.env.REACT_APP_BASE_URL || 'https://api.foodyman.org';
-export const WEBSITE_URL = 'https://foodyman.org';
+  process.env.REACT_APP_BASE_URL || 'https://server.cargolandfood.com';
+export const WEBSITE_URL = 'https://cargolandfood.com';
 export const api_url = BASE_URL + '/api/v1/';
 export const api_url_admin = BASE_URL + '/api/v1/dashboard/admin/';
 export const api_url_admin_dashboard = BASE_URL + '/api/v1/dashboard/';
@@ -11,21 +11,21 @@ export const export_url = BASE_URL + '/storage/';
 export const example = BASE_URL + '/';
 
 // map api key, ypu can get it from https://console.cloud.google.com/apis/library
-export const MAP_API_KEY = '';
+export const MAP_API_KEY = 'AIzaSyChJm_uOFkfVt2_bn-qE3tnQuJ3ZF1p-eE';
 
 // firebase keys, do not forget to change to your own keys here and in file public/firebase-messaging-sw.js
 export const VAPID_KEY =
-  '';
-export const API_KEY = '';
-export const AUTH_DOMAIN = '';
-export const PROJECT_ID = '';
-export const STORAGE_BUCKET = '';
-export const MESSAGING_SENDER_ID = '';
-export const APP_ID = '';
-export const MEASUREMENT_ID = '';
+  'BP5Ko-DEIkrUuU2n5Ta_FEfAN_2jplA0YuPan4Na8kbY84GyCmTRm-EJL8fShGKogG3RJe2WqyM0M-1WtuZtnaI';
+export const API_KEY = 'AIzaSyBX35h8ydXcTZlrzAN90JAUuIkThS-yHgw';
+export const AUTH_DOMAIN = 'cargolandfoods-a42f8.firebaseapp.com';
+export const PROJECT_ID = 'cargolandfoods-a42f8';
+export const STORAGE_BUCKET = 'cargolandfoods-a42f8.firebasestorage.app';
+export const MESSAGING_SENDER_ID = '93074006303';
+export const APP_ID = '1:93074006303:web:0105805689601cbbbf902a';
+export const MEASUREMENT_ID = 'G-46SQRZF8YY';
 
 // recaptcha key, you can get it from https://www.google.com/recaptcha/admin/create
-export const RECAPTCHASITEKEY = '';
+export const RECAPTCHASITEKEY = '6LfPHd4qAAAAAE72UKbu2p_vuI0W6mzuM7xtrJRI';
 
 // demo data, no need to change
 export const LAT = 47.4143302506288;
