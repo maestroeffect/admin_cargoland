@@ -25,7 +25,7 @@ export const APP_ID = '1:93074006303:web:0105805689601cbbbf902a';
 export const MEASUREMENT_ID = 'G-46SQRZF8YY';
 
 // recaptcha key, you can get it from https://www.google.com/recaptcha/admin/create
-export const RECAPTCHASITEKEY = '6LfPHd4qAAAAAE72UKbu2p_vuI0W6mzuM7xtrJRI';
+export const RECAPTCHASITEKEY = '6LeXA-EqAAAAAAY6CDGDA7SCTIZr3PbGG5NyqUYy';
 
 // demo data, no need to change
 export const LAT = 47.4143302506288;
